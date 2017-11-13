@@ -5,7 +5,7 @@ var letter = function () {
         this.appear = true;
     };
 };
-letter.prototype.renderLetter = function () {
+letter.prototype.displayLetter = function () {
     if (this.appear) {
         return this.value;
     }
